@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <EditText
+
+        android:id="@+id/edtweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint_wt"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edthightft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="hight_ft"
+        android:ems="10"
+        android:hint="@string/hint_higtft"
+        android:inputType="number" />
+
+    <EditText
+
+        android:id="@+id/edtweightinch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_higtin"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_calculate"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:background="@color/boton_calculate"
+        android:id="@+id/boton_calculate"
+        />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
